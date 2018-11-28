@@ -1,19 +1,130 @@
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<xmp>
-		<html>
-			<head>
-			<meta charset="UTF-8">
-			<title>Document</title>
-		</head>
-		<body>
-			Hello World
-		</body>
-		</html>	
-	</xmp>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/prism.css">
+
+    <title>Learning HTML Dasar</title>
+  <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/16C4792D-E425-9C44-BA18-D2C32BB74934/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://ff.kis.v2.scr.kaspersky-labs.com/416CE9E8-75DC-A441-8A10-0B37579317CE/abn/main.css"/></head>
+  <body>
+   
+   <div class="wrapper">
+	   	<nav id="sidebar">
+	   		<div class="sidebar-header">
+	   			<h3>TUTORIAL HTML</h3>
+	   		</div>
+	   		<ul class="list-unstyled">
+	   			<li><a href="#definisi">Definisi HTML</a></li>
+	   			<li><a href="#struktur">Struktur HTML</a></li>
+	   			<li><a href="#element">HTML Elements</a></li>
+	   		</ul>
+	   	</nav>
+   		<div class="container-fluid">
+   		<div class="row">
+		<div class="col-md-12">   			
+		   	<div class="content">
+		   		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		   		
+		   		<button type="button" id="sidebarCollapse" class="btn btn-info">
+		   			<i class="fa fa-align-justify"></i>
+		   		</button>
+		   		
+				  <!--<a class="navbar-brand" href="#">Navbar</a> -->
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				</nav>
+	  	
+	  	
+		  		<div class="topic-content" id="definisi">
+			  		<h2 class="block-content">Definisi HTML</h2>
+			  	
+			  	 <p class="text-justify">HTML adalah bahasa standar untuk pembuatan halaman web</p>
+			     <ul>
+			     	<li>HTML kepanjangan dari <b>Hyper Text Markup Language</b></li>
+			     	<li>HTML menggambarkan struktur dari halaman web menggunakan markup</li>
+			     	<li>Elemen HTML merupakan bagian pembangun dari halaman HTML</li>
+			     	<li>Elemen HTML diwakili dengan Tag</li>
+			     	<li>Tag HTML memiliki konten seperti "heading", "paragraph", "table" dan seterusnya</li>
+			     	<li>Tag HTML tidak ditampilkan pada Browser, hanya menampilkan konten halaman</li>
+			     </ul>
+		  		</div>
+
+
+
+		  		<div class="topic-content" id="struktur">
+			  		<h2 class="block-content">Struktur HTML</h2>
+			  	
+			  	 <div class="col-md-6 well" style="background-color:#ccc;margin-left:20px;padding-bottom:10px;border-left:5px solid green;box-shadow:2px 3px 2px #ccc;padding-top:5px;">
+			  	 	<h4>Contoh Struktur HTML:</h4>
+			  	 	<div style="background-color:#fff;padding:5px;">
+			  	 		&lt;!DOCTYPE html&gt;<br/>
+			  	 		&lt;html&gt;<br>
+			  	 		&lt;head&gt;<br>
+			  	 		&lt;title&gt;<br>
+			  	 		&lt;body&gt;<br><br>
+			  	 		&lt;h1&gt; This is a Heading &lt;/h1&gt;<br>
+			  	 		&lt;p&gt; This is a Paragraph &lt;/p&gt;<br>
+			  	 		&lt;/body&gt;
+			  	 	</div>
+			  	 </div>
+			     <p class="text-justify" style="margin-left:20px;padding-top:5px;">Penjelasan : <br>
+			     </p>
+			     <ul>
+			     	<li>Tag <b>&lt;!DOCTYPE html&gt;</b> mendefinisikan dokumen ini menggunakan HTML 5</li>
+			     	<li>Tag <b>&lt;html&gt;</b> merupakan elemen utama dari halaman web</li>
+			     	<li>Tag <b>&lt;head&gt;</b> merupakan elemen yang mengandung informasi meta tentang dokumen halaman web</li>
+			     	<li>Tag <b>&lt;title&gt;</b> merupakan elemen yang menentukan judul dokumen halaman web</li>
+			     	<li>Tag <b>&lt;body&gt;</b> merupakan elemen yang berisi konten halaman web</li>
+			     	<li>Tag <b>&lt;h1&gt;</b> merupakan elemen yang mendefinisikan heading</li>
+			     	<li>Tag <b>&lt;p&gt;</b> merupakan elemen yang mendefinisikan paragrap</li>
+			     </ul>
+		  		</div>
+
+		  		<div class="topic-content" id="element">
+			  		<h2 class="block-content">HTML Elements</h2>
+			  	
+			  	<p class="text-justify">Sebuah elemen html biasaya terdiri dari awal tag dan akhir tag, contoh seperti ini</p>
+			  	<p class="lead">
+			  		<pre style="font-size:20px;">
+			  	 		<code class="language-markup">&lt;tagname> Isi Konten &lt;/tagname></code>
+			  	 	</pre>
+			  	</p>
+			  	<p>Penulisan HTML selalu dibuka dengan tag awal dan tag akhir</p>	
+			  	
+			    
+		  		</div>
+	  		</div>
+	  	</div>
+	  	</div>
+	  	</div>
+   	</div>
+   	
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/prism.js"></script>
+    <script>
+	    $(document).ready(function(){
+			$('#sidebarCollapse').on('click',function(){
+				$('#sidebar').toggleClass('active');
+			});
+		});  
+	</script>
+    
+    
+    
+    
+    
+  </body>
 </html>
